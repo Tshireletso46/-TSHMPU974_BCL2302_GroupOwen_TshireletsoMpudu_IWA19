@@ -123,7 +123,7 @@ SHOW_MORE_BTN.setAttribute("style", "color: rgba(255, 255, 255, 0.6)");
  * This function updates the number of books left and then prints
  * that number on the button used to show more books.
  * @returns { number } the number of books left that haven't been
- * loaded to the page
+ * loaded to the page.
  */
 const updateBooksLeft = () => {
   const booksOnPage = document.querySelectorAll('preview');
